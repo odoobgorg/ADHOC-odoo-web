@@ -19,7 +19,7 @@
 #
 ##############################################################################
 {
-    'name': 'Website Security',
+    'name': 'Website Issue Form',
     'version': '9.0.1.0.0',
     'category': 'Website',
     'sequence': 14,
@@ -30,11 +30,13 @@
     'images': [
     ],
     'depends': [
-        'website',
+        'website_partner',
+        'project_issue',
     ],
     'data': [
-        'views/website_views.xml',
-        'security/security.xml',
+        'data/website_issue_data.xml',
+        'views/website_issue.xml',
+        'views/snippets.xml',
     ],
     'demo': [
     ],
